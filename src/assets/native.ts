@@ -111,6 +111,15 @@ const nativeAssets: AssetMap = {
     color: '#0083ff',
     coinGeckoId: 'terrausd',
     feeAsset: 'UST'
+  },
+  VRSC: {
+    name: 'Verus',
+    chain: ChainId.Verus,
+    type: 'native',
+    code: 'VRSC',
+    coinGeckoId: 'verus-coin',
+    color: '#3165d4',
+    decimals: 8
   }
 }
 
