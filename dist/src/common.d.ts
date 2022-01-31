@@ -1,0 +1,14 @@
+export declare const isValidHex: (hash: string) => boolean;
+export declare const toLowerCaseWithout0x: (hash: string) => string;
+export declare const with0x: (hash: string) => string;
+export declare const isValidNearAddress: (address: string) => boolean;
+export declare const isValidNearTx: (hash: string) => boolean;
+export declare const isValidBitcoinCashAddress: (address: string) => boolean;
+export declare const formatBitcoinCashAddress: (address: string) => string;
+export declare const isValidSolanaAddress: (address: string) => boolean;
+export declare const isValidSolanaTx: (tx: string) => boolean;
+export declare const isValidTerraAddress: (address: string) => boolean;
+export declare const isValidTerraTx: (tx: string) => boolean;
+export declare const isValidVerusAddress: (address: string) => boolean;
+export declare const isValidVerusTx: (tx: string) => boolean;
+export declare const getRSKChainID: (network: string) => 30 | 31;

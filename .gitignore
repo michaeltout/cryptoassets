@@ -30,5 +30,5 @@ tmp
 # Users Environment Variables
 .lock-wscript
 
-dist
+#dist
 tokens-master
