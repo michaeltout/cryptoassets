@@ -60,7 +60,7 @@ export const isValidTerraTx = (tx: string): boolean => {
 }
 
 export const isValidVerusAddress = (address: string): boolean => {
-  return base58.decode(address).length === 21
+  return base58.decode(address).length === 25 && (address.startsWith('R') || address.startsWith('b'))
 }
 
 export const isValidVerusTx = (tx: string): boolean => {
